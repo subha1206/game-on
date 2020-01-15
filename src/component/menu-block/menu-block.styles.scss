@@ -1,0 +1,13 @@
+.menu-area{
+    border: 1.3px grey solid;
+    margin: auto;
+    padding: 20px;
+    width: 264px;
+    border-radius: 10px;
+    .menu-title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+    
+}

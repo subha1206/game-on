@@ -1,0 +1,17 @@
+.team-area{
+    border: 1.3px grey solid;
+    margin: auto;
+    padding: 20px;
+    width: 588px;
+    height: 140px;
+    border-radius: 10px;
+    .team-title{
+       display: flex;
+       margin-bottom: 8px;
+    }
+    .team-details{
+        padding: 20px;
+        margin: 0 auto;  
+    }
+    
+}

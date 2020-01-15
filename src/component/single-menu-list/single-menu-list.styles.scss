@@ -1,0 +1,14 @@
+.list-area{
+    display: flex;
+    border: 1.3px grey solid;
+    margin: 5px;
+    width: 245.1px;
+    border-radius: 10px;
+    padding: 5px;
+    span{
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 0;
+        padding: 5px;
+    }
+}

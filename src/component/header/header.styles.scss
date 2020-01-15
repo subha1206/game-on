@@ -1,0 +1,42 @@
+.header-component {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 2px grey solid;
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 10px;
+      margin: auto 10px;
+      color: white;
+    }
+    .user-name{
+        color: white;
+        margin: auto 10px;
+        font-size: 15px;
+    }
+    .date-time{
+        color: white;
+        margin: auto 10px;
+        
+        font-size: 18px;
+    }
+    .options {
+        width: 70px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .option {
+            padding: 10px 15px;
+            cursor: pointer;
+            color: white;
+          }
+        img{
+            border-radius: 50%;
+        }
+    }
+}
