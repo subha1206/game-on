@@ -1,20 +1,23 @@
 import React from 'react';
-import Envelop from '../../assets/envelop.jpg'
+import Calendar from '../../assets/calendar.jpg'
+import Circel from '../../assets/circle.jpg'
+import { ReactComponent as User} from '../../assets/user-regular.svg'
 
 import './user.styles.scss'
 
 const UserCard = () => {
     return(
         <div className='user-card'>
-            <img src={Envelop} alt="user" width='100px' height='100px'/>
+            <User className='user' width='100px' height='100px' color='crimson'/>
             <p>Jonh Doe</p><br/>
             <p>He is cool</p>
                 <div>
-                    <h1>Calendar</h1>
+                    <br></br>
+                    <img src={Calendar} alt="calendar" width='200px' height='150px' />
                 </div>
-            <div>
-                <h2>wheel</h2>
-                <h2>whell</h2>
+            <div className='progress-section'>
+            <img src={Circel} alt="calendar" width='200px' height='150px'/>
+            <img src={Circel} alt="calendar" width='200px' height='150px'/>
             </div>
         </div>
     )

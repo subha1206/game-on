@@ -11,7 +11,7 @@
       width: 70px;
       padding: 10px;
       margin: auto 10px;
-      color: white;
+      color: crimson;
     }
     .user-name{
         color: white;
@@ -21,8 +21,7 @@
     .date-time{
         color: white;
         margin: auto 10px;
-        
-        font-size: 18px;
+        font-size: 16px;
     }
     .options {
         width: 70px;
@@ -31,9 +30,9 @@
         align-items: center;
         justify-content: flex-end;
         .option {
-            padding: 10px 15px;
+            padding: 10px 10px;
             cursor: pointer;
-            color: white;
+            color: crimson;
           }
         img{
             border-radius: 50%;

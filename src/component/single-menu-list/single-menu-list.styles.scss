@@ -2,13 +2,19 @@
     display: flex;
     border: 1.3px grey solid;
     margin: 5px;
-    width: 245.1px;
+    width: 216px;
     border-radius: 10px;
     padding: 5px;
+    font-size: 14px;
     span{
         border-radius: 10px;
         cursor: pointer;
         margin-right: 0;
         padding: 5px;
+        font-size: 12px;
+
+     &:hover{
+         font-size: 14px;
+     }
     }
 }

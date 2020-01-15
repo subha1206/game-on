@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderMenu from './heder-menu.component'
+import HeaderMenu from '../header-menu/heder-menu.component'
 import {getCurrentDate} from './header.utils'
 import { ReactComponent as Logo } from '../../assets/gamepad-solid.svg'
 import './header.styles.scss'
