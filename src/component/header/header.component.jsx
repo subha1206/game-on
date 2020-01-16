@@ -9,7 +9,7 @@ const Header = () => {
     return(
         <div className='header-component'>
             <div className='user-name'>
-                <span>Hii, User</span> <br />
+                <span>Hii, John Doe</span> <br />
                 MY PERSONAL DASHBOARD
             </div>
             <div className='logo-container'>

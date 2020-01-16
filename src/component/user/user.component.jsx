@@ -1,7 +1,7 @@
 import React from 'react';
 import Calendar from '../../assets/calendar.jpg'
-import Circel from '../../assets/circle.jpg'
 import { ReactComponent as User} from '../../assets/user-regular.svg'
+import { ReactComponent as Progress } from '../../assets/spinner-solid.svg'
 
 import './user.styles.scss'
 
@@ -16,8 +16,14 @@ const UserCard = () => {
                     <img src={Calendar} alt="calendar" width='200px' height='150px' />
                 </div>
             <div className='progress-section'>
-            <img src={Circel} alt="calendar" width='200px' height='150px'/>
-            <img src={Circel} alt="calendar" width='200px' height='150px'/>
+                <div className='tasks'>
+                    <span>Daily Tasks</span>
+                    <Progress className='user' width='65px' height='80px' color='white'/>
+                </div>
+                <div className='tasks'>
+                    <span>Monthly tasks</span>
+                    <Progress className='user' width='65px' height='80px' color='white' />
+                </div>
             </div>
         </div>
     )
