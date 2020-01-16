@@ -1,6 +1,7 @@
 .menu-item, .menu-open-button {
   background: #EEEEEE;
   border-radius: 100%;
+  cursor: pointer;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -163,7 +164,7 @@
 
 .item-1 {
   background-color: crimson;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .item-1:hover {
