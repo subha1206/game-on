@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+## How To Use
+ 1. Just download the projectFiles using ssh or https.
+ 2. Install npm to run the scripts.
+ 3. If any issues found Type  `npm audit fix`
+ 4. Run  `npm start` to Run the project.
+
+>>>>>>> parent of 136f1a6... Updates
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

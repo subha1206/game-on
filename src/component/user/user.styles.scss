@@ -1,0 +1,22 @@
+.user-card{
+    border: 1.3px gray solid;
+    margin: auto;
+    padding: 20px;
+    width: 240px;
+    height: 500px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 10px 20px -7px rgba(222,42,42,1);
+    -moz-box-shadow: -1px 10px 20px -7px rgba(222,42,42,1);
+    box-shadow: -1px 10px 20px -7px rgba(222,42,42,1);
+    img{
+        border-radius: 10px;
+        opacity: 0.5;
+    }
+    .progress-section{
+        display: flex;
+        justify-content: space-between;
+        .tasks{
+            margin-top: 35px;
+        }
+    }
+}
